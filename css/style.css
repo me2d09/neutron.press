@@ -69,6 +69,14 @@ h4 {
   font-size: 20px;
 }
 
+.lead a {
+  color: #dd0a37;
+}
+
+.lead a:hover, a:focus {
+  text-decoration: underline;
+}
+
 a {
   color: #0b0f28;
   -webkit-transition: 0.3s color;
