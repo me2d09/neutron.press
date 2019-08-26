@@ -79,6 +79,7 @@ h4 {
 
 a {
   color: #0b0f28;
+  font-weight: bold;
   -webkit-transition: 0.3s color;
   transition: 0.3s color;
 }
@@ -407,6 +408,12 @@ textarea.input {
 
 .number h3 {
   font-size: 42px;
+  margin-bottom: 0px;
+  color: #dd0a37;
+}
+
+.number h4 {
+  font-size: 22px;
   margin-bottom: 0px;
   color: #dd0a37;
 }
