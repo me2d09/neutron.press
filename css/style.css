@@ -776,6 +776,10 @@ textarea.input {
   font-size: 14px;
 }
 
+.event p {
+  text-align: justify;
+}
+
 .event .event-time i {
   color: #dd0a37;
 }
