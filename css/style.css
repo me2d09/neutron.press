@@ -96,6 +96,20 @@ ul, ol {
   list-style: none
 }
 
+ul.flash li {
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+  
+ul.flash li::before {
+  content: "⚡ ";
+}
+
+ul.flash li span {
+  font-weight: bold;
+}
+ 
+
 .main-btn {
   display: inline-block;
   padding: 14px 50px;
@@ -1097,3 +1111,4 @@ textarea.input {
     width: 100%;
   }
 }
+
